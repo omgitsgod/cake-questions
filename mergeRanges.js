@@ -1,7 +1,7 @@
 function mergeRanges(meetings) {
 
     let arr = []
-    let sorted = meetings.sort((a, b) => a.startTime - b.startTime)
+    let sorted = JSON.parse(JSON.stringify(meetings)).sort((a, b) => a.startTime - b.startTime)
 
 
     for (let i = 0; i < sorted.length; i++) {
