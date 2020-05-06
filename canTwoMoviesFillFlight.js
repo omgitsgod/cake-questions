@@ -1,6 +1,5 @@
 function canTwoMoviesFillFlight(movieLengths, flightLength) {
 
-
     let movies = new Set();
 
     for (let i = 0; i < movieLengths.length; i++) {
